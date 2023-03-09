@@ -1,4 +1,4 @@
-# 人工大聪明
+# oGPT
 
 <div align="center">
 
@@ -7,24 +7,9 @@
 
 </div>
 
-# 环境 & 支持
+# Environment & Support
 
 
 PHP > 7.4 and Sqlite3
 
 https://github.com/orhanerday/OpenAI
-
-# Docker快速搭建
-```sh
-docker run -p 8000:8000 -e OPENAI_API_KEY=sk-xxxxxxx holdroot/big-chat:latest
-```
-# 或
-```sh
-git clone https://github.com/jackmamaa/big-chat.git
-```
-```sh
-docker build -t big-chat .
-```
-```sh
-docker run -p 8000:8000 -e OPENAI_API_KEY=sk-xxxxxxx big-chat
-```
